@@ -1,0 +1,27 @@
+# API keys and credentials
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Private data and local backups
+data/
+backups/
+updates/
+knowledge_library/
+*.zip
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# macOS files
+.DS_Store
+
+# Generated reports
+reports/
+downloads/
